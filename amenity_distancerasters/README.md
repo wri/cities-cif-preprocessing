@@ -5,7 +5,7 @@ There are two scripts here. They are intended to be downloaded, modified, and ru
 
 Both scripts require [CIF](https://github.com/wri/cities-cif) and its associated dependencies--including Google and AWS credentials. Additionally, get_store_distancerasters.py requires...
 * [r5py](https://r5py.readthedocs.io/stable/), which in turn requires Java Development Kit v21+. The installation process is tricky on Windows.
-* Locally stored PBF files (many are stored [here](s3://wri-cities-indicators/devdata/inputdata/pbf/)) of your cities' street networks.
+* Locally stored PBF files (many are stored in this S3 bucket: s3://wri-cities-indicators/devdata/inputdata/pbf/) of your cities' street networks.
 
 Note that both scripts must be modified before they can be run. You must specify amenity types, cities, and local and S3 paths.
 
