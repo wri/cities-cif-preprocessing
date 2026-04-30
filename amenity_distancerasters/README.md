@@ -1,4 +1,4 @@
-#H1 Generating amenity distancerasters
+#h1 Generating amenity distancerasters
 There are two scripts here. They are intended to be downloaded, modified, and run on your local computer.
 * [get_amenitypoints_for_distancerasters.py](https://github.com/wri/cities-cif-preprocessing/blob/main/amenity_distancerasters/get_amenitypoints_for_distanceraster.py) queries OpenStreetMap for points associated with the specified amenities, and stores a geodataframe (as geojson) to your local computer.
 * [get_store_distancerasters.py](https://github.com/wri/cities-cif-preprocessing/blob/main/amenity_distancerasters/get_store_distancerasters.py) reads the locally stored amenity points GDF and stores (locally and in an S3 bucket) a distance raster.
